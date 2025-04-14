@@ -1,0 +1,92 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 2rem;
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: #333333;
+  }
+  
+  /* Input e botão */
+  input {
+    padding: 0.75rem;
+    border: 1px solid #6b6b6b;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  button {
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  #addButton {
+    background-color: #57ca5b;
+    color: white;
+  }
+  
+  #addButton:hover {
+    background-color: #285c2a;
+  }
+  
+  /* Lista de compras */
+  ul#shoppingList {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  ul#shoppingList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    border: 1px solid #e6e3e3;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul#shoppingList li span {
+    flex-grow: 1;
+    font-size: 1rem;
+    color: #000000;
+  }
+  
+  /* Button Editar Remover */
+  ul#shoppingList li button {
+    margin-left: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    border-radius: 6px;
+  }
+  
+  ul#shoppingList li button:nth-child(2) {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  ul#shoppingList li button:nth-child(2):hover {
+    background-color: #195a9b;
+  }
+  
+  ul#shoppingList li button:nth-child(3) {
+    background-color: #f33729;
+    color: white;
+  }
+  
+  ul#shoppingList li button:nth-child(3):hover {
+    background-color: #801f1f;
+  }
+  
